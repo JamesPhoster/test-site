@@ -14,7 +14,7 @@ body {
 }
 
 a {
-  color: #db3434;
+  color: #FFCB21;
   text-decoration: none;
 }
 
@@ -30,7 +30,6 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
   color: white;
 }
-
 
 
 /*--------------------------------------------------------------
@@ -173,7 +172,7 @@ canvas {
 }
 
 .navbar a:hover, .navbar .active, .navbar li:hover > a {
-  color: #db3434;
+  color: #D4AA37;
 }
 
 .navbar .getstarted {
@@ -190,7 +189,7 @@ canvas {
   margin-left: 30px;
   border-radius: 50px;
   color: #fff;
-  animation: blinking 5s linear infinite;
+  animation: blinking 4s linear infinite;
 }
 
 .navbar .swapn {
@@ -199,7 +198,7 @@ canvas {
   margin-left: 30px;
   border-radius: 50px;
   color: #fff;
-  animation: blinking 5s linear infinite;
+  animation: blinking 4s linear infinite;
 }
 
 .navbar .swapn:hover, .navbar .teleg:hover {
@@ -209,18 +208,26 @@ canvas {
 
 @keyframes blinking {
   0% {
-    background-color: #ff3d50;
-    border: 2px solid #871924;
+
+    background-color: #FFC800;
+    border: 2px solid #FAD13F;
   }
   /* YOU CAN ADD MORE COLORS IN THE KEYFRAMES IF YOU WANT */
   50% {
-    background-color: #222291;
-    border: 2px solid #6565f2;
+
+    background-color: #c99163;
+    border: 2px solid #FFCB21;
+  }
+
+  75% {
+    
+    background-color: #B04D07;
+    border: 2px solid #FAD13F;
   }
   
   100% {
-    background-color: #ff3d50;
-    border: 2px solid #871924;
+            background-color: #FFC800;
+    border: 2px solid #FAD13F;
   }
 }
 
@@ -259,7 +266,7 @@ canvas {
 }
 
 .navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a {
-  color: #db3434;
+  color: #D4AA37;
 }
 
 .navbar .dropdown:hover > ul {
@@ -541,7 +548,7 @@ section {
   content: '';
   width: 50px;
   height: 2px;
-  background: #ac2f08; /* Colour of Lines beside Title */
+  background: #BA9200; /* Colour of Lines beside Title */
   display: inline-block;
 }
 
@@ -793,16 +800,13 @@ section {
   transition: all 0.3s;
   z-index: -1;
 }
-/*
+
+
+
 .services .icon-box:hover::before {
-  background: #D6935C; /* colour of box on hover *//*
-  right: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  border-radius: 0px;
+  background: #CF9F00; /* colour of box on hover */
 }
-*/
+
 
 .services .icon {
   margin: 0 auto 20px auto;
@@ -812,7 +816,7 @@ section {
   border-radius: 50%;
   width: 60px;
   height: 60px;
-  background: #D6935C; /* percentage circle color */
+  background: #CF9F00; /* percentage circle color */
   transition: all 0.3s ease-in-out;
 }
 
@@ -821,8 +825,6 @@ section {
   line-height: 1;
   color: #fff;
 }
-
-
 
 .services .title {
   font-weight: 700;
@@ -841,7 +843,7 @@ section {
 }
 
 .shrk-txt{
-  color: #E37D29;
+  color: #FFCB21;
 }
 
 /*
@@ -851,10 +853,14 @@ section {
 
 .services .icon-box:hover .icon {
   background: #fff; /* percentage icon color */
+
 }
 
+
+
 .services .icon-box:hover .icon i {
-  color: #8F080F; /* percentage text color */
+  color: #BA9200; /* percentage text color */
+
 }
 
 /*--------------------------------------------------------------
@@ -1430,7 +1436,7 @@ section {
 }
 
 .faq .faq-item i {
-  color: #de5151;
+  color: #FFCB21; /* colour of question icons in FAQ */
   font-size: 24px;
   float: left;
   line-height: 0;
